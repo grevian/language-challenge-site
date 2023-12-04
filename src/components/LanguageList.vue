@@ -6,7 +6,6 @@ const languages = ref(new Array<String>("Perl","Python","C","Java","OpenGOAL","C
 
 <template>
   <IListGroup>
-
     <IListGroupItem v-for="lang in languages" :to="{name: 'Language', params: {language: lang.toLowerCase() }}">
       {{ lang }}
     </IListGroupItem >
