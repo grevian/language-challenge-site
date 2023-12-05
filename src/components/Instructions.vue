@@ -10,6 +10,7 @@ const options = ref<SelectOption[]>([
   { id: 'LISPs', label: 'LISPs' },
   { id: 'Classical', label: 'Classical' },
   { id: 'Boring and Popular', label: 'Boring and Popular' },
+  { id: 'Weird Shit', label: 'Weird Shit' },
 ]);
 const selected = ref(options[0]);
 
@@ -18,6 +19,7 @@ let themeMap = new Map<String, Array<String>>([
   ['LISPs', ["clojure", "opengoal"]],
   ['Classical', ["c", "perl"]],
   ['Boring and Popular', ["go", "java", "python"]],
+  ['Weird Shit', ["html", "opengoal"]],
 ])
 function issueChallenge() {
   let options = themeMap.get(selected.value)

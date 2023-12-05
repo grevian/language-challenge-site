@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {ref} from "vue";
 
-const languages = ref(new Array<String>("Perl","Python","C","Java","OpenGOAL","Clojure","Rust","Go"))
+const languages = ref(new Array<String>("Perl","Python","C","Java","OpenGOAL","Clojure","Rust","Go","HTML"))
 </script>
 
 <template>
