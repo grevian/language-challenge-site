@@ -8,7 +8,7 @@
   })
 
   var isLoaded = ref(false)
-  fetch(`../../` + props.language + `.md`).then(response => {
+  fetch( import.meta.env.BASE_URL + props.language + `.md`).then(response => {
     response.text().then(value => {
       isLoaded.value = true;
       src.value = value;
