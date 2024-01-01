@@ -10,7 +10,7 @@
   "dependencies": {
     "@inkline/inkline": "^4.2.1",
     "vue": "^3.3.10",
-    "markdown-it": "^13.0.2",
+    "markdown-it": "^14.0.0",
     "vue-markdown-render": "^2.1.1",
     "vue-router": "^4.2.5"
   },
