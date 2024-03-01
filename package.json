@@ -12,7 +12,7 @@
     "vue": "^3.4.3",
     "markdown-it": "^14.0.0",
     "vue-markdown-render": "^2.1.1",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@inkline/config": "^1.9.1",
