@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@inkline/inkline": "^4.2.1",
+    "@inkline/inkline": "^4.7.2",
     "vue": "^3.5.30",
     "markdown-it": "^14.1.1",
     "vue-markdown-render": "^2.1.1",
